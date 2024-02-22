@@ -29,8 +29,8 @@ SplashScreen.preventAutoHideAsync();
 Notifications.setNotificationHandler({
   handleNotification: async () => ({
     shouldShowAlert: true,
-    shouldPlaySound: false,
-    shouldSetBadge: false,
+    shouldPlaySound: true,
+    shouldSetBadge: true,
   }),
 });
 
@@ -93,9 +93,6 @@ async function sendPushNotification(expoPushToken: string) {
 
   console.log('push notification sent');
 }
-
-// schedule notification 5 seconds from now
-async function schedulePushNotification() {
 
 export default function RootLayout() {
   const [loaded, error] = useFonts({
