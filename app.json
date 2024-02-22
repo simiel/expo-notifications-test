@@ -34,6 +34,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "936263a2-7c6f-461b-bb92-f602018ac994"
+      }
+    },
+    "owner": "simiel"
   }
 }
