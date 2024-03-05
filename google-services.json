@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "987433574800",
+    "project_id": "notifications-test-3654c",
+    "storage_bucket": "notifications-test-3654c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987433574800:android:ce10c44c9862abc1395315",
+        "android_client_info": {
+          "package_name": "com.simiel.exponotificationstest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3cNCwPurRHtWJbknboAT3nkqBGxhSODM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
